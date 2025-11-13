@@ -1,0 +1,76 @@
+{
+    "name": "CharacterInput",
+    "maps": [
+        {
+            "name": "Move",
+            "id": "f88dc5a4-90d4-42a4-8774-08d910568625",
+            "actions": [
+                {
+                    "name": "Run",
+                    "type": "Button",
+                    "id": "70217d29-1e76-43a3-8273-b1a4c714c18e",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Jump",
+                    "type": "Button",
+                    "id": "3c54ab22-cbc8-447d-bd02-eeddc48cc4a3",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "1D Axis",
+                    "id": "c6e75d97-10c1-4f30-8ae3-dc99e209a6a2",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Run",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "a3aaed5d-dc6a-4221-836e-a2b1cd0dc094",
+                    "path": "<Keyboard>/leftArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Run",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "b5eff9b1-15d7-4ddd-b8f1-4c0b80f13353",
+                    "path": "<Keyboard>/rightArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Run",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "65ac0f73-54ac-4899-8211-590aff958938",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
